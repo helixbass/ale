@@ -69,6 +69,7 @@ function! ale#fixers#prettier#ApplyFixForVersion(buffer, version) abort
         \    'vue': 'vue',
         \    'yaml': 'yaml',
         \    'html': 'html',
+        \    'coffee': 'coffeescript',
         \}
 
         for l:filetype in l:filetypes
