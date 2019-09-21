@@ -6,5 +6,5 @@ call ale#linter#Define('coffee', {
 \   'output_stream': 'both',
 \   'executable_callback': 'ale#handlers#eslint#GetExecutable',
 \   'command_callback': 'ale#handlers#eslint#GetCommand',
-\   'callback': 'ale#handlers#eslint#Handle',
+\   'callback': 'ale#handlers#eslint#HandleJSON',
 \})
